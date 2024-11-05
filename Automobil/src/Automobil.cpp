@@ -18,6 +18,7 @@ Automobil::Automobil(const Automobil &obj)
 Automobil &Automobil::operator=(const Automobil &obj)
 {
     std::cout << "Automobil operator=  // (copy assignment operator)" << std::endl;
+    
     if (this != &obj)
     {
         combustibil = obj.combustibil;
@@ -27,6 +28,7 @@ Automobil &Automobil::operator=(const Automobil &obj)
         putere = obj.putere;
         *VIN = *(obj.VIN);
     }
+
     return *this;
 }
 
@@ -51,6 +53,7 @@ Automobil &Automobil::operator=(Automobil &&obj)
         VIN = std::move(obj.VIN);
         obj.VIN = nullptr;
     }
+    
     return *this;
 }
 

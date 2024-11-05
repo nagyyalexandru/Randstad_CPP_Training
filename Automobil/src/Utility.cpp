@@ -24,5 +24,6 @@ void Utility::PrintCharacter(char character)
     {
         std::cout << character;
     }
+    
     std::cout << std::endl;
 }

@@ -43,14 +43,18 @@ Coupe &Coupe::operator=(const Coupe &obj)
     return *this;
 }
 
-Coupe::Coupe(Coupe &&obj) : Automobil(std::move(obj)) {
+Coupe::Coupe(Coupe &&obj) : Automobil(std::move(obj))
+{
     std::cout << "Coupe(Coupe &&obj)" << std::endl;
 }
 
-Coupe& Coupe::operator=(Coupe &&obj) {
-    if (this != &obj) {
+Coupe& Coupe::operator=(Coupe &&obj)
+{
+    if (this != &obj)
+    {
         Automobil::operator=(std::move(obj));
     }
+    
     return *this;
 }
 
