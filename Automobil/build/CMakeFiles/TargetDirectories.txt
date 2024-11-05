@@ -1,0 +1,3 @@
+/home/alex/Trainings/Randstad_CPP_Training/Automobil/build/CMakeFiles/AutomobilDemo.dir
+/home/alex/Trainings/Randstad_CPP_Training/Automobil/build/CMakeFiles/edit_cache.dir
+/home/alex/Trainings/Randstad_CPP_Training/Automobil/build/CMakeFiles/rebuild_cache.dir
