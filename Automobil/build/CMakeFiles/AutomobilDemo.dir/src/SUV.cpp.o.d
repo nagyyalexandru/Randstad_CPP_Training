@@ -1,7 +1,7 @@
-CMakeFiles/AutomobilDemo.dir/src/Coupe.cpp.o: \
- /home/alex/Trainings/Randstad_CPP_Training/Automobil/src/Coupe.cpp \
+CMakeFiles/AutomobilDemo.dir/src/SUV.cpp.o: \
+ /home/alex/Trainings/Randstad_CPP_Training/Automobil/src/SUV.cpp \
  /usr/include/stdc-predef.h \
- /home/alex/Trainings/Randstad_CPP_Training/Automobil/lib/Coupe.h \
+ /home/alex/Trainings/Randstad_CPP_Training/Automobil/lib/SUV.h \
  /home/alex/Trainings/Randstad_CPP_Training/Automobil/lib/Automobil.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
