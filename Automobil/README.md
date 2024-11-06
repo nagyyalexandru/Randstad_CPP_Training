@@ -14,7 +14,7 @@ Subtasks:
 2. **Run CMake to configure the project**:
     ``` bash
     cmake ..
-
+    make
 3. **Execute the program by running this command from the build directory**: 
     ```bash
     ./AutomobilDemo
