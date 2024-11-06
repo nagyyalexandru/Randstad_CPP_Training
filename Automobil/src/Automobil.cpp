@@ -1,5 +1,7 @@
 #include "Automobil.h"
 
+/* Base class Automobil */
+
 // constructor
 Automobil::Automobil(const std::string &combustibil, const std::string &caroserie, const std::string &tractiune, const std::string &echipare, int putere)
     : combustibil(combustibil), caroserie(caroserie), tractiune(tractiune), echipare(echipare), putere(putere), VIN(std::make_unique<int>())

@@ -1,5 +1,9 @@
 #include "Coupe.h"
 
+/** Sub-class Coupe
+  * Limited at 1 object instance
+ */
+
 int Coupe::objCount = 0;
 
 Coupe::Coupe() : Automobil("", "Coupe", "", "", 0)

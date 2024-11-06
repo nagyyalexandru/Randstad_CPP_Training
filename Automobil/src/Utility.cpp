@@ -1,5 +1,7 @@
 #include "Utility.h"
 
+/* Utilitary class for calling some functions without creating an object */
+
 void Utility::printNumbers(const std::vector<int> &nums)
 {
     for(int i = 0; i < nums.size(); ++i)

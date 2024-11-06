@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Automobil.h"
 
 class Sedan : public Automobil
@@ -9,7 +8,7 @@ public:
     Sedan(const std::string &combustibil, const std::string &tractiune, const std::string &echipare,
           int putere);                  // parametrized constructor
 
-    // Rule - of - five
+    /* Rule of five */
     Sedan(const Sedan &obj);            // copy constructor
     Sedan &operator=(const Sedan &obj); // copy-assignment operator
     Sedan(Sedan &&obj);                 // move constructor

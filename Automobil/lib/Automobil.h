@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 #include <string>
 #include <memory>
@@ -10,7 +9,7 @@ public:
     Automobil(const std::string &combustibil, const std::string &caroserie, const std::string &tractiune,
               const std::string &echipare, int putere); // constructor
 
-    // Rule - of - five :
+    /* Rule of five */
     Automobil(const Automobil &obj);            // copy constructor
     Automobil &operator=(const Automobil &obj); // copy-assignment operator
     Automobil(Automobil &&obj);                 // move constructor

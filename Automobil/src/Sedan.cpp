@@ -1,6 +1,8 @@
 #include "Sedan.h"
 #include <iostream>
 
+/* Sub-class Sedan */
+
 Sedan::Sedan() : Automobil("", "Sedan", "", "", 0)
 {
     std::cout << "Sedan()" << std::endl;

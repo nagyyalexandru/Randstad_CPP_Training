@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Automobil.h"
 #include <iostream>
 
@@ -15,7 +14,7 @@ public:
     Coupe(const std::string &combustibil, const std::string &tractiune, const std::string &echipare,
           int putere);                  // parametrized constructor
           
-    // Rule - of - five
+    /* Rule of five */
     Coupe(const Coupe &obj);            // copy constructor
     Coupe &operator=(const Coupe &obj); // copy-assignment operator
     Coupe(Coupe &&obj);                 // move constructor

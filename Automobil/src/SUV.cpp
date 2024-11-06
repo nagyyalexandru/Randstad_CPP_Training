@@ -1,5 +1,7 @@
 #include "SUV.h"
 
+/* Sub-class SUV */
+
 // constructor
 SUV::SUV() : Automobil("", "SUV", "", "", 0)
 {

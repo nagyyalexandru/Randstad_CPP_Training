@@ -5,6 +5,8 @@
 #include "SUV.h"
 #include "Utility.h"
 
+/* Exemplify every subtask from Level 1 Assignment */
+
 int main(void)
 {
     Utility::printMessage("Program execuction starts.");
