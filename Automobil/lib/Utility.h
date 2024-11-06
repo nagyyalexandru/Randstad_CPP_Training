@@ -8,7 +8,9 @@
 class Utility
 {
 public:
-    static double Average(const std::vector<int> &nums);
-    static void Hello(const std::string &message);
-    static void PrintCharacter(char character);
+    static void printNumbers(const std::vector<int> &nums);
+    static double averageOfNums(const std::vector<int> &nums);
+    static void printMessage(const std::string &message);
+    static void printCharacter(char character);
+    static void printNewLine();
 };

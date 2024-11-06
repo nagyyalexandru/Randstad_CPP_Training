@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Automobil.h"
+#include <iostream>
 
 #define COUPE_MAX_OBJ_COUNT 1
 

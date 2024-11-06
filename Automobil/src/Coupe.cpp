@@ -1,5 +1,4 @@
 #include "Coupe.h"
-#include <iostream>
 
 int Coupe::objCount = 0;
 

@@ -1,29 +1,43 @@
 #include "Utility.h"
 
-double Utility::Average(const std::vector<int> &nums)
+void Utility::printNumbers(const std::vector<int> &nums)
+{
+    for(int i = 0; i < nums.size(); ++i)
+    {
+        std::cout << nums[i] << " ";
+    }
+
+    printNewLine();
+}
+
+double Utility::averageOfNums(const std::vector<int> &nums)
 {
     int sum = 0;
-    int size = nums.size();     // determinam lungimea vectorului
     
-    for(int i = 0; i < size; ++i)
+    for(int i = 0; i < nums.size(); ++i)
     {
         sum += nums[i];
     }
 
-    return static_cast<double>(sum) / size;
+    return static_cast<double>(sum) / nums.size();
 }
 
-void Utility::Hello(const std::string & message)
+void Utility::printMessage(const std::string & message)
 {
     std::cout << "Message from Utility class : " << message << std::endl;
 }
 
-void Utility::PrintCharacter(char character)
+void Utility::printCharacter(char character)
 {
     for (int i = 0; i < NUM_OF_CHARS; ++i)
     {
         std::cout << character;
     }
     
+    std::cout << std::endl;
+}
+
+void Utility::printNewLine()
+{
     std::cout << std::endl;
 }
