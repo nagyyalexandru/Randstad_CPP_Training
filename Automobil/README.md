@@ -18,5 +18,3 @@ Subtasks:
 3. **Execute the program by running this command from the build directory**: 
     ```bash
     ./AutomobilDemo
-
-# After running these commands, the program will execute and exemplify every subtask mentioned earlier in the assignment.
