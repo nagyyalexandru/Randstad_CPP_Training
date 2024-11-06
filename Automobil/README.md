@@ -14,9 +14,15 @@ Automobil/
 ├── CMakeLists.txt   # CMake configuration file
 
 ## Steps to Build and Run the Project
-1. Navigate to the 'build' directory: $ cd Automobil/build
-2. Run cmake to configure the project: $ cmake ..
+1. **Navigate to the `build` directory**:
+    ```bash
+    cd Automobil/build
+2. **Run CMake to configure the project**:
+    ``` bash
+    cmake ..
 This command tells CMake to configure the project based on the CMakeLists.txt file located in the parent directory (..). CMake will generate Makefiles within the build directory.
-3. Execute the program by running this command from the build directory: $ ./AutomobilDemo
+3. **Execute the program by running this command from the build directory**: 
+    ```bash
+    ./AutomobilDemo
 
-After running these commands, the program will execute and exemplify every subtask mentioned earlier in the assignment.
+# After running these commands, the program will execute and exemplify every subtask mentioned earlier in the assignment.
